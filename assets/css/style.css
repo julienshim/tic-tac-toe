@@ -1,1 +1,23 @@
+body {
+  background: pink;
+}
 
+.main {
+  width: 100%;
+  background: green;
+  display: grid;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.box {
+  height: 33%;
+  width: 33%;
+  background-color: blue;
+  text-align: center;
+  border: 2px solid red;
+}
