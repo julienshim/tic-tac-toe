@@ -2,9 +2,12 @@ body {
   background: pink;
 }
 
+h1 {
+  text-align: center;
+}
+
 .main {
   width: 100%;
-  background: green;
   display: grid;
   justify-content: center;
 }
@@ -15,9 +18,11 @@ body {
 }
 
 .box {
-  height: 33%;
-  width: 33%;
-  background-color: blue;
-  text-align: center;
+  height: 250px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10rem;
   border: 2px solid red;
 }
